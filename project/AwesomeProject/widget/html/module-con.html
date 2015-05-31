@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang='zh-CN'>
+    <head>
+        <meta charset='utf-8'>
+        <meta name='viewport' content='maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,width=device-width,initial-scale=1.0'/>
+        <link rel='stylesheet' type='text/css' href='../css/module.css' />
+		<style type='text/css'>
+		  .diy-btn-group-test {margin : 10px 0px 0px 0px;}
+          body{-webkit-user-select:none;}
+		</style>
+    </head>
+    <body>
+<div class="panel panel-info">
+  <div class="panel-heading">
+    <h3 class="panel-title">reactNative.createModule 创建并显示react-navtive模块</h3>
+  </div>
+  <div class="panel-body">
+		<pre class="pre-scrollable">
+/* 创建并显示一个 react-navite 模块 */
+
+var reactNative = api.require("reactNative");
+
+reactNative.createModule({
+    moduleName: "AwesomeProject", // 模块名称.需在编译前的react-js文件中指定.必须要和传入的jsbundle文件对应.
+    jsbundle: "widget://res/main.jsbundle" /* 使用react-native bundle指令编译react-js后得到的文件.
+    必须和moduleName对应使用.支持http:// ,fs://, widget://, cache:// 等协议. */
+});
+	</pre>
+</div>
+<div class="panel-footer">	
+	<div class="btn-group btn-group-justified">
+	  <div class="btn-group">
+	    <button tapmode="" role="run" type="button" class="btn btn-primary">运行</button>
+	  </div>	  
+	  <div class="btn-group">
+	    <button tapmode=""  role="edit" type="button" class="btn btn-info">编辑</button>
+	  </div>
+	  <div class="btn-group">
+	    <button tapmode=""  role="restore" type="button" class="btn btn-warning">还原</button>
+	  </div>
+	</div>
+</div>
+</div>
+    </body>
+	<script src='../script/module.js'></script>
+</html>

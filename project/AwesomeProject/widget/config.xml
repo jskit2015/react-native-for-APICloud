@@ -1,0 +1,11 @@
+<widget id="A123456789"  version="0.0.1">
+    <name>模块开发</name>
+    <description>
+        模块开发示例应用.
+    </description>
+    <author email="developer@apicloud.com" href="http://www.apicloud.com">
+        APICloud
+    </author>
+    <content src="./index.html" />
+    <access origin="*" />
+</widget>
