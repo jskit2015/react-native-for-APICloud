@@ -2,7 +2,7 @@
 基于react-native 封装的 APIClou 平台的一个iOS模块.可以在APICloud上,直接使用 react-native 开发了.
 
 ## 先说点什么
-[APICloud](http://www.apicloud.com/) 是国内新兴的混合开发平台.[react-native](http://facebook.github.io/react-native/),是facebook今年三月份正式对外公布的基于react.js的no dom开发框架.近几日,翻阅 react-native 的文档时,发现react-native更多的是担当 view 层的角色,理论上是可以嵌入到原生 iOS 应用开发的.也就是说,理论上,是有可能把 react-native 封装为 APICloud 平台的一个模块,用于扩展自己的应用功能的.试着做了下,真的成功了.(想想都有点小激动,以后可以完全用JS些原生应用了,say goodbye to html!)
+[APICloud](http://www.apicloud.com/) 是国内新兴的混合开发平台.[react-native](http://facebook.github.io/react-native/),是facebook今年三月份正式对外公布的基于react.js的no dom开发框架.近几日,翻阅 react-native 的文档时,发现react-native更多的是担当 view 层的角色,理论上是可以嵌入到原生 iOS 应用开发的.也就是说,理论上,是有可能把 react-native 封装为 APICloud 平台的一个模块,用于扩展自己的应用功能的.试着做了下,真的成功了.(想想都有点小激动,以后可以完全用JS写原生应用了,say goodbye to html!)
 
 ## 扫描二维码快速体验
 
